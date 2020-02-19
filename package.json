@@ -7,7 +7,8 @@
     "dev": "next",
     "build": "next build",
     "static": "next build && next export",
-    "start": "next start"
+    "start": "next start -p $PORT",
+    "heroku-postbuild": "npm run build"
   },
   "keywords": [],
   "author": "Kevin Henriquez <kevinkonrad93@gmail.com>",

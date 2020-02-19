@@ -1,0 +1,19 @@
+.header {
+  display: flex;
+  margin-left: -1rem;
+}
+
+.header__link {
+  padding: 1rem;
+  text-decoration: none;
+  color: #212426;
+  transition: all 0.2 ease-in;
+  &:hover {
+    color: $link-color;
+  }
+  &:focus {
+    text-decoration: underline;
+    color: $link-color;
+    outline: 2px dotted $link-color;
+  }
+}

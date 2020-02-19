@@ -1,0 +1,36 @@
+.badge {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
+  font-size: 0.875rem;
+  font-weight: 700;
+  padding: 4px 16px;
+  border-radius: 12px;
+}
+
+.badge--green {
+  color: #22543D;
+  background-color: #C6F6D5;
+}
+
+.party-badge {
+  width: 22px;
+  height: 22px;
+  border-radius: 100%;
+  padding: 4px;
+}
+
+.party-badge--R {
+  color: #742A2A;
+  background-color: #FED7D7;
+}
+.party-badge--D {
+  color: #2A4365;
+  background-color: #BEE3F8;
+}
+.party-badge--I {
+  color: #744210;
+  background-color: #FEFCBF;
+}
+

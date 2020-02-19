@@ -1,0 +1,37 @@
+.button {
+  display: inline-block;
+  border: none;
+  padding: 0.75rem 2rem;
+  margin: 0;
+  text-decoration: none;
+  background: transparent;
+  color: $link-color;
+  font-family: inherit;
+  font-size: 1rem;
+  font-weight: 700;
+  cursor: pointer;
+  text-align: center;
+  border: 2px solid $link-color;
+  border-radius: 3px;
+  transition: background 250ms ease-in-out, 
+              transform 150ms ease;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.button:hover,
+.button:focus {
+  color: #fff;
+  background-color: $link-color;
+}
+
+.button:focus {
+  outline: 2px dashed #fff;
+  outline-offset: -8px;
+}
+
+.button:active {
+  transform: scale(0.99);
+}
